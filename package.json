@@ -1,0 +1,25 @@
+{
+  "name": "react-autofocus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run sagui:test",
+    "sagui:test": "sagui test",
+    "sagui:test-watch": "sagui test --watch",
+    "sagui:develop": "sagui develop",
+    "sagui:build": "sagui build",
+    "sagui:dist": "sagui dist",
+    "start": "npm run sagui:develop"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sagui": "^3.0.1"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}
