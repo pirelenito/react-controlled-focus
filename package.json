@@ -13,8 +13,16 @@
     "start": "npm run sagui:develop"
   },
   "keywords": [],
-  "author": "",
+  "author": "Paulo Ragonha <paulo@ragonha.me> (https://github.com/pirelenito)",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pirelenito/react-controlled-focus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pirelenito/react-controlled-focus/issues"
+  },
+  "homepage": "https://github.com/pirelenito/react-controlled-focus#readme",
   "devDependencies": {
     "sagui": "^4.0.0-rc.1",
     "react": "^0.14.7",
