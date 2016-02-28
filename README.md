@@ -6,6 +6,8 @@ This is an attempt at managing `focus` the same way [controled components](http:
 
 The biggest difference between `focus` and `value` is that `focus` is not actually a property of the input itself, but rather the document, in the form of the `document.activeElement`. This library approaches the problem by moving the focus management outside of the individual elements up to a `<ControlledFocus>` top level component.
 
+Open the [demo page](http://pirelenito.github.io/react-controlled-focus/demo.html) to see it in action.
+
 **WARNING**: The API is nowhere near 1.0 stability and it is pretty much an experiment at this point. Appretiate any feedback if I'm doing something that doesn't make sense.
 
 ## Usage
