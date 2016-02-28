@@ -2,7 +2,7 @@
   "name": "react-controlled-focus",
   "version": "0.1.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "npm run sagui:test",
     "sagui:test": "sagui test",
@@ -10,8 +10,12 @@
     "sagui:develop": "sagui develop",
     "sagui:build": "sagui build",
     "sagui:dist": "sagui dist",
+    "prepublish": "rm -rf dist && npm run sagui:build",
     "start": "npm run sagui:develop"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "author": "Paulo Ragonha <paulo@ragonha.me> (https://github.com/pirelenito)",
   "license": "ISC",
