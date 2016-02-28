@@ -1,7 +1,7 @@
 {
   "name": "react-controlled-focus",
   "version": "0.1.2",
-  "description": "",
+  "description": "React component for declarative focus",
   "main": "dist/index.js",
   "scripts": {
     "test": "npm run sagui:test",
