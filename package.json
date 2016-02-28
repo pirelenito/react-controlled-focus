@@ -16,9 +16,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sagui": "^3.0.1"
+    "sagui": "^3.0.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
   }
