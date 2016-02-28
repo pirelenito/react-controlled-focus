@@ -16,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sagui": "^3.0.1",
+    "sagui": "^4.0.0-rc.1",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
   },
