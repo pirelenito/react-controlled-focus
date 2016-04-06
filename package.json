@@ -15,7 +15,11 @@
   "files": [
     "dist"
   ],
-  "keywords": [],
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-component"
+  ],
   "author": "Paulo Ragonha <paulo@ragonha.me> (https://github.com/pirelenito)",
   "license": "ISC",
   "repository": {
