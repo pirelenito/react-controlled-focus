@@ -22,9 +22,7 @@ export default React.createClass({
   },
 
   componentDidUpdate (prevProps) {
-    if (prevProps.activeElement !== this.props.activeElement) {
-      this.focusChild(this.props.activeElement)
-    }
+    this.focusChild(this.props.activeElement)
   },
 
   componentDidMount () {
