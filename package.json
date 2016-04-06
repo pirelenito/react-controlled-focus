@@ -4,14 +4,13 @@
   "description": "React component for declarative focus",
   "main": "dist/index.js",
   "scripts": {
-    "test": "npm run sagui:test",
-    "sagui:test": "sagui test",
-    "sagui:test-watch": "sagui test --watch",
-    "sagui:develop": "sagui develop",
-    "sagui:build": "sagui build",
-    "sagui:dist": "sagui dist",
-    "prepublish": "rm -rf dist && npm run sagui:build",
-    "start": "npm run sagui:develop"
+    "start": "npm run develop",
+    "test": "NODE_ENV=test sagui test",
+    "test-watch": "NODE_ENV=test sagui test --watch",
+    "develop": "sagui develop",
+    "build": "sagui build",
+    "dist": "NODE_ENV=production sagui dist",
+    "prepublish": "rm -rf dist && npm run build"
   },
   "files": [
     "dist"
@@ -28,7 +27,7 @@
   },
   "homepage": "https://github.com/pirelenito/react-controlled-focus#readme",
   "devDependencies": {
-    "sagui": "^4.0.0-rc.1",
+    "sagui": "^4.0.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
   },
