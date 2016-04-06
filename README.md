@@ -1,5 +1,9 @@
 # React Controlled Focus
 
+[![Build Status](https://travis-ci.org/pirelenito/react-controlled-focus.svg)](https://travis-ci.org/pirelenito/react-controlled-focus)
+[![npm version](https://badge.fury.io/js/react-controlled-focus.svg)](https://badge.fury.io/js/react-controlled-focus)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+
 One of the biggest advantages of using React is having the possibility of a completely **declarative UI**, which is amazing until you run into trying to controll focus.
 
 This is an attempt at managing `focus` the same way [controled components](http://facebook.github.io/react/docs/forms.html#controlled-components) handle `value`.
